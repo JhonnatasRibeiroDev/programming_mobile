@@ -5,7 +5,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <ScrollView>
-      <ScrollView horizontal style={styles.carrossel}>
+      <ScrollView showsHorizontalScrollIndicator={false} horizontal style={styles.carrossel}>
         <Card nome="Neymar" url="https://i0.statig.com.br/bancodeimagens/imgalta/6d/2n/qs/6d2nqshw9lodueisju2k2bwyl.jpg" />
         <StatusBar style="auto" />
         <Card nome="Suarez" url="https://i.pinimg.com/550x/02/c4/e9/02c4e96ff0f3aea80a938fffe931c05b.jpg" />
