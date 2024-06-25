@@ -18,10 +18,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.jhonnatasribeirodev.myinstagram"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b77e20b0-b0a8-4de7-b0ff-c0cefcbf5721"
+      }
+    },
+    "owner": "jhonnatasribeirodev"
   }
 }
